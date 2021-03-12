@@ -1,0 +1,42 @@
+.heading {
+    background-color: rgb(37, 65, 1);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 4px 2px -2px rgba(0,0,0,.2);
+}
+
+.container {
+    display: flex;
+    margin: 0 20rem;
+    height: 64px;
+    padding: 18px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.head-left {
+    display: flex;
+    align-items: center;
+    font-size: 1.5rem;
+}
+
+.head-right {
+    text-decoration: none;
+    font-size: 1.1rem;
+    cursor: pointer;
+}
+
+.head-link {
+    text-decoration: none;
+    cursor: pointer;
+    color: white;
+    margin-right: 15px;
+}
+
+.ri-leaf-fill {
+    font-size: 2.0rem;
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+}
