@@ -6,8 +6,8 @@ function Types() {
         fetch("https://morning-star.p.rapidapi.com/market/v2/get-movers", {
 	        "method": "GET",
 	        "headers": {
-		    "x-rapidapi-key": "66d69c07c9msh7cdb417e4303e7dp119c82jsned260f1e7add",
-		    "x-rapidapi-host": "morning-star.p.rapidapi.com"
+		    "x-rapidapi-key": "************************************",
+		    "x-rapidapi-host": "************************"
 	        }})
             .then(res => res.json())
             .then(data => console.log(data))
