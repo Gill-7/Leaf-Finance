@@ -1,9 +1,12 @@
 import React from 'react'
+import './Home.css'
+import Types from './Types/Types'
 
 function Home() {
+    
     return (
         <div>
-            <h1>Home Page</h1>
+             <Types />
         </div>
     )
 }

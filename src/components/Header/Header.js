@@ -12,7 +12,7 @@ function Header() {
             <div className="heading">
                 <div className='container'>
                     <div className="head-left">
-                        <Link to="/">
+                        <Link className="head-link" to="/">
                             <i class="ri-leaf-fill"></i>
                         </Link>
                         <p className="head-name">Leaf Finance</p>

@@ -1,30 +1,42 @@
 .heading {
     background-color: rgb(37, 65, 1);
+    font-family: 'Fira Sans', sans-serif;
     color: white;
     display: flex;
-    flex-direction: column;
-    box-shadow: 0 4px 2px -2px rgba(0,0,0,.2);
+    justify-content: center;
+    align-items: center;
 }
 
 .container {
     display: flex;
-    margin: 0 20rem;
-    height: 64px;
-    padding: 18px;
-    justify-content: space-between;
+    height: 58px;
+    justify-content: center;
     align-items: center;
+    width: 1250px;
 }
 
 .head-left {
     display: flex;
     align-items: center;
+    justify-content: flex-start;
     font-size: 1.5rem;
+    margin-right: auto;
+    margin-left: 10px;
 }
 
 .head-right {
+    display: flex;
+    align-items: center;
     text-decoration: none;
-    font-size: 1.1rem;
+    font-size: 0.95rem;
     cursor: pointer;
+    margin-right: 10px;
+}
+
+.ri-leaf-fill {
+    font-size: 2.1rem;
+    color: white;
+    text-decoration: none;
 }
 
 .head-link {
@@ -34,9 +46,6 @@
     margin-right: 15px;
 }
 
-.ri-leaf-fill {
-    font-size: 2.0rem;
-    color: white;
-    text-decoration: none;
-    margin-right: 20px;
+.head-link:hover {
+    font-weight: 600;
 }
